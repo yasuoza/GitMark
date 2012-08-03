@@ -15,7 +15,7 @@ class GitMark
 
   HTML = <<-HTML
   <body>
-    <div id="markdown" style="width:500px;margin:auto;margin-top:50px">
+    <div id="markdown" style="width:700px;margin:auto;margin-top:50px">
        <div class="markdown-body">
           <%= BODY %>
         </div>
