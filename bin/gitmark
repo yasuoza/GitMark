@@ -8,19 +8,21 @@ class GitMark
   GIT_URI = 'https://api.github.com/markdown/raw'
 
   HEADER = <<-HTML
-  <header>
+  <html>
+  <head>
    <link href="https://a248.e.akamai.net/assets.github.com/assets/github-4cdfe51085d51343892c756d1d0a1264ec8d8668.css" media="screen" rel="stylesheet" type="text/css" />
-  </header>
+  </head>
   HTML
 
   HTML = <<-HTML
   <body>
-    <div id="markdown" style="width:700px;margin:auto;margin-top:50px">
+    <div id="markdown" style="width:700px;margin:auto;margin-top:50px;padding-bottom:50px">
        <div class="markdown-body">
           <%= BODY %>
         </div>
     </div>
   </body>
+  </html>
   HTML
 
   def initialize
