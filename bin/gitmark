@@ -10,7 +10,8 @@ class GitMark
   HEADER = <<-HTML
   <html>
   <head>
-   <link href="https://a248.e.akamai.net/assets.github.com/assets/github-4cdfe51085d51343892c756d1d0a1264ec8d8668.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="http://developer.github.com/shared/css/documentation.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="http://developer.github.com/shared/css/pygments.css" media="screen" rel="stylesheet" type="text/css">
   </head>
   HTML
 
